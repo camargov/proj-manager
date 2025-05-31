@@ -1,0 +1,12 @@
+.container label {
+	display: block;
+}
+
+.visible {
+	display: inline;
+	cursor: pointer;
+}
+
+.submit {
+	display: block;
+}

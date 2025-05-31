@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+.env
+.env.local
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MacOS
+.DS_Store
+
+# VS Code (keep only specific files if needed)
+.vscode/*
+
+# OS-generated
+Thumbs.db
