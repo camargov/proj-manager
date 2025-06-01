@@ -1,0 +1,7 @@
+.container {
+	position: fixed;
+	bottom: 0;
+	padding: 24px;
+	background-color: gainsboro;
+	width: 100%;
+}

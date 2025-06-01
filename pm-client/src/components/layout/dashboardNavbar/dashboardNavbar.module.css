@@ -1,3 +1,24 @@
+.container {
+	margin: 40px 0px 24px 0px;
+}
+
 .topRow {
 	display: flex;
+}
+
+.topRow button {
+	margin-left: auto;
+}
+
+.bottomRow {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 24px;
+}
+
+.bottomRight {
+	margin-left: auto;
+	display: flex;
+	align-items: flex-start;
+	gap: 24px;
 }

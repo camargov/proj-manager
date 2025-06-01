@@ -1,3 +1,5 @@
+/* Data Constants */
+
 export const DefaultProfile = {
 	name: "Guest",
 	email: "",
@@ -26,3 +28,8 @@ export const DefaultUser = {
 	profile: DefaultProfile,
 	projects: [DefaultProject],
 };
+
+/* --------------------------------------------- */
+/* Image Constants */
+/* --------------------------------------------- */
+export const SMALL_ICON_WIDTH = 24;

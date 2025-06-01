@@ -1,0 +1,34 @@
+.mainBox {
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+}
+
+.projectType {
+	font-size: 24px;
+}
+
+.standard {
+	font-size: 16px;
+	background-color: gainsboro;
+	padding: 6px 12px;
+}
+
+.standard:hover {
+	background-color: gray;
+}
+
+.active {
+	cursor: pointer;
+}
+
+.option {
+	cursor: pointer;
+	background-color: gainsboro;
+	padding: 6px 12px;
+	font-weight: bold;
+}
+
+.option:hover {
+	background-color: gray;
+}

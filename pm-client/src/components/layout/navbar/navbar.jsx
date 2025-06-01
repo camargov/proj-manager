@@ -1,9 +1,11 @@
 "use client";
-import Button from "@/components/buttons/button";
-import UserIcon from "@/components/buttons/userIcon";
+import Button from "@/components/buttons/button/button";
+import UserIcon from "@/components/buttons/userIcon/userIcon";
 import { DefaultUser } from "@/util/constants";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import classes from "./navbar.module.css";
 
 const Navbar = () => {
 	const user = DefaultUser; // TODO: get user from authentication function
@@ -19,9 +21,16 @@ const Navbar = () => {
 	};
 
 	return (
-		<div>
-			<div>
-				<Link href={guestUser ? "/" : "/dashboard"}>Project Manager</Link>
+		<div className={classes.container}>
+			<Link href={guestUser ? "/" : "/dashboard"}>
+				<Image
+					src="logo.svg"
+					alt="Project Manager logo"
+					width={40}
+					height={40}
+				/>
+			</Link>
+			<div className={classes.rightContainer}>
 				{guestUser ? (
 					<UserIcon name={user.profile.name} />
 				) : (
